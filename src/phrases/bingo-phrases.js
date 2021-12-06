@@ -34,7 +34,7 @@ const bingoPhrases = [
   `Entered as Irish Red; tastes like a Killian's`,
   `"Barrel-aged Bière de Garde" is just infected`,
   `Every Saison compared to Dupont`,
-  `Judging flight includes mis-mathched orphaned styles`,
+  `Judging flight includes mismatched orphaned styles`,
   `Best of Show is an American Light Lager`,
   `Best of Show is an Imperial Stout`,
   `Distinctly shaped bottle and you just KNOW who entered it`,
