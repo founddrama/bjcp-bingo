@@ -1,5 +1,3 @@
-export const FREE = 'FREE';
-
 const bingoPhrases = [
   `Gusher`,
   `Diacetyl`,
@@ -43,18 +41,4 @@ const bingoPhrases = [
   `A can shows up in the flight`,
 ];
 
-export default function getBingoPhrases() {
-  const setOfPhrases = new Set();
-  let copyOfSource = [].concat(bingoPhrases);
-
-  while (setOfPhrases.size < 24) {
-    const item = copyOfSource[Math.floor(Math.random() * copyOfSource.length)];
-    setOfPhrases.add(item);
-    copyOfSource = copyOfSource.filter(phrase => phrase !== item);
-  }
-
-  const squares = Array.from(setOfPhrases);
-  squares.splice(12, 0, FREE);
-
-  return squares;
-}
+export default bingoPhrases;
