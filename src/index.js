@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Bingo from 'bingo-board';
+import phrases from './phrases/bingo-phrases';
 import './style/index.css';
-import Bingo from './components/Bingo';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Bingo />
+    <Bingo phrases={phrases} />
   </React.StrictMode>,
   document.getElementById('root')
 );

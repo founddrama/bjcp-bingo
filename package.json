@@ -1,6 +1,6 @@
 {
   "name": "bjcp-bingo",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
@@ -9,7 +9,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "bingo-board": "git@github.com:founddrama/bingo-board.git"
   },
   "scripts": {
     "start": "react-scripts start",
