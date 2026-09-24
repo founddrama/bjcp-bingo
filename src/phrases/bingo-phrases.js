@@ -12,11 +12,11 @@ const bingoPhrases = [
   `Enteric`,
   `"Tastes like cardboard."`,
   `"This would score better as..."`,
-  `"PLEASE don’t put me in Category 34."`,
+  `"PLEASE don't put me in Category 34."`,
   `Hop burn`,
   `"I swear I can taste extract."`,
   `IPA entry specifically mentions 6+ hops`,
-  `“PLEASE don’t put me in wood-aged beers.”`,
+  `"PLEASE don't put me in wood-aged beers."`,
   `Wood-aged beer entry mentions wood you've never heard of before`,
   `Pencil lead breaks`,
   `Calibration beer is an American Brown Ale`,
@@ -53,6 +53,10 @@ const bingoPhrases = [
   `Lone Roggenbier entered as "Smoked Beer" for some reason`,
   `Feels weird drinking a "Christmas Ale" in May but OK`,
   `32A. Classic Style Smoked Beer actually REALLY GOOD but has NO CHANCE come Best of Show`,
+  `34A. entry *really* misunderstood the assignment`,
+  `Unsure if the 34C. entry is even technically beer`,
+  `American Wild Ale entry just a cover-story for infection`,
+  `"Imperial Witbier" neither "Imperial" not "Witbier"`,
 ];
 
 export default bingoPhrases;
